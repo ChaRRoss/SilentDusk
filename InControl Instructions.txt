@@ -1,0 +1,9 @@
+1. Add a terrain about 100x100
+2. Import InControl package
+3. Edit --> Project Settings --> InControl --> Setup Input Manager
+4. Add Character model, character should have a RigidBody
+5. Add PlayerCharacterMovement script
+6. Right-click in hierarchy InControl --> Manager
+7. Change the execution order, Edit --> ProjectSettings --> Change Execution Order
+8. Drag the file InControl --> Library --> InControlManager into the Default Time window
+9. Set the value to -100, then hit Apply
