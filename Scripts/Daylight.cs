@@ -6,6 +6,6 @@ public class Daylight : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
-		transform.Rotate (Vector3.up * Time.deltaTime * .5);
+		transform.Rotate (Vector3.up * Time.deltaTime * 1.6666667f);
 	}
 }
